@@ -11,6 +11,10 @@ Wired (USB) connection tests of real Android and iOS devices are also performed,
 ---
 
 ### Learning Record
-2/1
-My first Flutter App on MacOS both Android and iOS.
+
+
+2/1<br>
+My first Flutter App on MacOS both Android and iOS.<br>
 [Flutter(by Google) official page "White your first Flutter app, part 1"](https://flutter.dev/docs/get-started/codelab)
+
+Using an external open-source package named 'english_words', which contains a few thousand of the most used English words, and it's provides some useful utility functions.
