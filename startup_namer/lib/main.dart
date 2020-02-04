@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   // #docregion build
   @override
   Widget build(BuildContext context) {
+    final wordPair = WordPair.random();
     return MaterialApp(
       title: 'Startup Name Generator',
       home: RandomWords(),
@@ -68,6 +69,21 @@ class RandomWordsState extends State<RandomWords> {
   // #docregion RWS-var
 }
 // #enddocregion RWS-var
+
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => RandomWordsState();
+}
+
+class RandomWordsState extends State<RandomWords> {
+  // TODO Add build() method
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    final wordPair = WordPair.random();
+    return Text(wordPair.asPascalCase);
+  }
+}
 
 class RandomWords extends StatefulWidget {
   @override
